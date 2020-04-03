@@ -21,5 +21,5 @@ rails server -p 3000 -b '0.0.0.0'
 ## データベースコンテナに入るとき
 
 ```
-docker-compose exec app bash
+docker-compose exec db bash
 ```
