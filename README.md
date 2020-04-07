@@ -1,16 +1,25 @@
 # README
 
 ## コンテナの立ち上げ
+
 ```
 docker-compose up
 ```
 
 ## アプリケーションコンテナに入るとき
+
 ```
 docker-compose exec app bash
 ```
 
-## データベースコンテナに入るとき
+## rails server を起動するとき
+
 ```
-docker-compose exec app bash
+rails server -p 3000 -b '0.0.0.0'
+```
+
+## データベースコンテナに入るとき
+
+```
+docker-compose exec db bash
 ```
